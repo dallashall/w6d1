@@ -1,0 +1,61 @@
+html, body, h1, ul, figure {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+body {
+  width: 100%;
+}
+
+caption {
+  display: block;
+}
+
+h1, h2 {
+  text-align: center;
+
+}
+
+ul {
+  background: grey;
+  width: 300px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+  width: 100px;
+  height: 100px;
+  display: block;
+  float: left;
+  background: blue;
+  border: 1px solid white;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+ul li:hover {
+  background: darkblue;
+}
+
+ul li:active {
+  background: gold;
+}
+
+.ttt {
+  background: darkgrey;
+  width: 300px;
+  margin: 0 auto;
+  display: block;
+  color: white;
+  font-size: 72px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: block;
+}

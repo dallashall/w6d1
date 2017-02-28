@@ -1,0 +1,72 @@
+html, body, figure, ul, li {
+  background: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+}
+
+h1 {
+  clear: both;
+  text-align: center;
+}
+
+figure {
+  width: 650px;
+  height: 120px;
+  margin: 0 auto;
+}
+
+figure::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ul {
+  float: left;
+  border-bottom: 3px solid gold;
+  width: 200px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 5px;
+}
+
+ul:hover {
+  background: lightgrey;
+}
+
+ul:active {
+  background: darkgrey;
+}
+
+ul li {
+  background: blue;
+  border-radius: 25px;
+  height: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+[class*="disc-"] {
+  float: left;
+  margin-top: 15px;
+}
+
+.disc-1 {
+  width: 90px;
+  margin-left: 55px;
+}
+
+.disc-2 {
+  width: 120px;
+  margin-left: 40px;
+}
+
+.disc-3 {
+  width: 200px;
+}
